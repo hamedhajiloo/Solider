@@ -14,6 +14,7 @@ namespace Solider
 
             int n =int.Parse( Console.ReadLine());
            // var g = 2 Math (n + 1);
+
             var len = (2 ^ (n + 1)) - 1;
             char[,] res = new char[len,len];
             for (int i = 0; i < len; i++)
